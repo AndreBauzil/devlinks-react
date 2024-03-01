@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div 
-      className="bg-fuchsia-950 w-full max-w-[588px] mt-14 mx-auto py-6"
+      className="bg-fuchsia-950 w-full max-w-[588px] mt-14 mx-auto py-6 text-white"
     >
       <Profile 
         imgPath="./assets/avatar.jpg"
@@ -18,7 +18,9 @@ function App() {
 
       <Switch />
 
-      <ul>
+      <ul 
+        className="list-none py-6 flex flex-col gap-4"
+      >
         <ListItem 
           href="./assets/Currículo - Andre Bauzil.pdf"
           content="Ver meu Currículo - PT"
