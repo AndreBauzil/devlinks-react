@@ -7,7 +7,7 @@ interface Props {
 export function Profile({ imgPath, profileId }: Props) {
   return (
     <div id="profile"
-      className="items-center p-6"
+      className=" flex flex-wrap items-center content-center flex-col p-6"
     >
         <img 
             className="w-28 h-[6.5rem] object-cover rounded-full"
