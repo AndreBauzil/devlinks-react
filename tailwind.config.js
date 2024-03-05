@@ -10,7 +10,13 @@ export default {
         mobile: "url('/assets/background/bg-mobile.jpg')",
         switch: "url(./assets/utils/moon-stars.svg);"
       },
-      colors: {}
+      colors: {
+        stroke: "#ffffff80",
+        surface: "#ffffff0d",
+        surfaceHover: "#00000005",
+        highlight: "#ffffff33",
+        text: "white",
+      }
     },
   },
   plugins: [],
