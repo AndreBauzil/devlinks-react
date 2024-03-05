@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        mobile: "url('/assets/background/bg-mobile.jpg')"
-      }
+        mobile: "url('/assets/background/bg-mobile.jpg')",
+        switch: "url(./assets/utils/moon-stars.svg);"
+      },
+      colors: {}
     },
   },
   plugins: [],
