@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div 
-      className="bg-fuchsia-950 items-center flex flex-col w-full max-w-[588px] mt-14 mx-auto py-6 text-white"
+      className="bg-fuchsia-950/30 items-center flex flex-col w-full max-w-[588px] mt-14 mx-auto py-6 text-white"
     >
       <Profile 
         imgPath="./assets/utils/avatar.jpg"
@@ -41,16 +41,8 @@ function App() {
 
       <div id="social-links">
         <SocialLink 
-          href="https://github.com/AndreBauzil"
-          icon="logo-github"
-        />
-        <SocialLink 
-          href="https://instagram.com/andre_bauzil"
-          icon="logo-instagram"
-        />
-        <SocialLink 
-          href="https://linkedin.com/in/andre-bauzil"
-          icon="logo-linkedin"
+          href={["https://github.com/AndreBauzil", "https://instagram.com/andre_bauzil", "https://linkedin.com/in/andre-bauzil"]}
+          icons={["logoGithub", "logoIstagram", "logoLinkedin"]}
         />
 
         <footer>Made with ❤ by myself</footer>
