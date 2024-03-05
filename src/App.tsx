@@ -12,7 +12,7 @@ function App() {
       className="bg-fuchsia-950 items-center flex flex-col w-full max-w-[588px] mt-14 mx-auto py-6 text-white"
     >
       <Profile 
-        imgPath="./assets/avatar.jpg"
+        imgPath="./assets/utils/avatar.jpg"
         profileId="@AndreBauzil" 
       />
 
